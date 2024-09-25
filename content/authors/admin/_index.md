@@ -34,7 +34,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url:
+    url: 'hakhverd@ualberta.ca'
     mailto: hakhverd@ualberta.ca
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
