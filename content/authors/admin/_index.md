@@ -19,6 +19,7 @@ superuser: true
 # Role/position/tagline
 role: MSc in Computing Science
 # email: hakhverd@ualberta.ca
+mailto: hakhverd@ualberta.ca
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -31,9 +32,6 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    # url: 'hakhverd@ualberta.ca'
-    mailto: 'hakhverd@ualberta.ca'
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
   - icon: brands/github
