@@ -25,6 +25,7 @@ mailto: hakhverd@ualberta.ca
 organizations:
   - name: University of Alberta
     url: 
+  - name: hakhverd@ualberta.ca
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.

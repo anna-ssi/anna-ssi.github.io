@@ -3,7 +3,6 @@
 
 main:
   - name: hakhverd@ualberta.ca
-    url: hakhverd@ualberta.ca
     weight: 10
 #   - name: Topics
 #     url: tags/
