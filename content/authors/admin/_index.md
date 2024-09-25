@@ -33,7 +33,7 @@ profiles:
   - icon: at-symbol
     url: 'hakhverd@ualberta.ca'
     label: E-mail Me
-  - icon: icons/gs
+  - icon: gs.svg
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
   - icon: brands/x
     url: https://x.com/anna_ssi_
@@ -45,9 +45,6 @@ profiles:
   - icon: academicons/cv
     url: uploads/Anna_CV.pdf
     label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
