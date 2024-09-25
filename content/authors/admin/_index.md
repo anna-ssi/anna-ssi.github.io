@@ -33,11 +33,11 @@ bio: My research interests include distributed robotics, mobile computing and pr
 profiles:
   - icon: at-symbol
     url: 'hakhverd@ualberta.ca'
-    label: E-mail Me
+    mailto: hakhverd@ualberta.ca
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
   - icon: brands/github
-    label: https://github.com/anna-ssi
+    url: https://github.com/anna-ssi
   - icon: brands/x
     url: https://x.com/anna_ssi_
   # - icon: brands/instagram
@@ -47,7 +47,6 @@ profiles:
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
     url: uploads/Anna_CV.pdf
-    label: Download my resume
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
