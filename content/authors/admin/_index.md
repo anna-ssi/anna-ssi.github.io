@@ -22,7 +22,7 @@ role: MSc in Computing Science
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Alberta
-    url: 
+    url: hakhverd@ualberta.ca
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -30,9 +30,9 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'hakhverd@ualberta.ca'
-    label: E-mail Me
+  # - icon: at-symbol
+  #   url: 'hakhverd@ualberta.ca'
+  #   label: E-mail Me
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
   - icon: brands/github
