@@ -57,4 +57,5 @@ highlight_name: true
 website: ""
 ---
 
-I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my Masters degree in Computing Science under the supervision of Martha White. 
+I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my Masters degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>. 
+My current research interests and work are about single-lifetime continual learning agents. I am reviewing materials about animal learning and human behaviorism, which are the key to unlocking learning principles for lifelong agents.
