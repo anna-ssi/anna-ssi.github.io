@@ -35,6 +35,8 @@ profiles:
     label: E-mail Me
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
+  - icon: brands/github
+    label: https://github.com/anna-ssi
   - icon: brands/x
     url: https://x.com/anna_ssi_
   # - icon: brands/instagram
