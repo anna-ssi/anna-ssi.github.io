@@ -34,7 +34,7 @@ header:
     show_search: true
     show_theme_chooser: true
     show_logo: true
-    align: "left"
+    align: "center"
     logo:
       text: "Anna Hakhverdyan"
 
