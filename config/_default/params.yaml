@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: green
+  color: blue
 
 # SEO
 marketing:
@@ -29,8 +29,8 @@ marketing:
 # Site header
 header:
   navbar:
-    # align: "left"
     enable: true
+    blox: "navbar"
     show_search: true
     show_theme_chooser: true
     logo:
