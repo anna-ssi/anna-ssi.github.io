@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'Anna Hakhverdyan's homepage'
 date: 2024-09-25
 type: landing
 
