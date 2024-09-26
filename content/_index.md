@@ -8,11 +8,11 @@ sections:
     content:
       # The user's folder name in content/authors/
       username: anna
-    # design:
-    #   spacing:
-    #     padding: [0, 0, 0, 0]
-    #   biography:
-    #     style: 'text-align: justify; font-size: 0.8em;'
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+      biography:
+        style: 'text-align: justify; font-size: 0.8em;'
         
   # - block: collection
   #   id: pubs
