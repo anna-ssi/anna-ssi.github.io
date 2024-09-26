@@ -34,8 +34,9 @@ header:
     show_search: true
     show_theme_chooser: true
     show_logo: true
-    # logo:
-    #   text: "Anna Hakhverdyan"
+    logo:
+      text: "Anna Hakhverdyan"
+      filename: ""
 
 # Site footer
 footer:
