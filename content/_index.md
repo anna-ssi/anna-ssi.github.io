@@ -37,6 +37,5 @@ sections:
         folders:
           - publication
     design:
-      view: card
-      columns: '2'
+      view: compact
 ---
