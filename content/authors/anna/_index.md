@@ -31,25 +31,18 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Education to show in About widget
-education:
-  courses:
-    - course: MSc in Computing Science
-      institution: University of Alberta
-      year: 2024
-    - course: BSc in Information Technologies
-      institution: National Polytechnic University of Armenia
-      year: 2021
-
-# Interests to show in About widget
-interests:
-  - Reinforcement Learning
-  - Continual Learning
-  - Single-lifetime agents
-  - Human and animal behaviors
+# education:
+#   courses:
+#     - course: MSc in Computing Science
+#       institution: University of Alberta
+#       year: 2024
+#     - course: BSc in Information Technologies
+#       institution: National Polytechnic University of Armenia
+#       year: 2021
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-social:
+profiles:
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
   - icon: brands/github
@@ -64,13 +57,14 @@ social:
   - icon: academicons/cv
     url: uploads/Anna_CV.pdf
 
-
-
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Author's website URL
-website: ""
+interests:
+  - Reinforcement Learning
+  - Continual Learning
+  - Single-lifetime agents
+  - Human and animal behaviors
 ---
 
 I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my Masters degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  I completed my bachelor's of IT at the National Polytechnic University of Armenia (NPUA).
