@@ -38,4 +38,5 @@ sections:
           - publication
     design:
       view: compact
+      columns: '2'
 ---
