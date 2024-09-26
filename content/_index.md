@@ -11,7 +11,7 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ['40px', '0', '40px', '0']
+        padding: ['60px', '0', '60px', '0']
       biography:
         style: 'text-align: justify; font-size: 1em;'
   - block: markdown
@@ -25,8 +25,8 @@ sections:
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
         Please reach out to collaborate 😃
-    # design:
-    #   columns: '1'
+    design:
+      columns: '1'
   - block: collection
     id: pubs
     content:
