@@ -14,7 +14,7 @@ sections:
         padding: [0, 0, 0, 0]
       biography:
         style: 'text-align: justify; font-size: 1em;'
-  - block: markdown
+  - block: collection
     content:
       title: '📚 My Research'
       subtitle: ''
