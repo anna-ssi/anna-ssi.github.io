@@ -47,6 +47,9 @@ profiles:
   - icon: academicons/cv
     url: uploads/Anna_CV.pdf
 
+education:
+
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
