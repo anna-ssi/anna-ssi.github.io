@@ -17,8 +17,8 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
-      text: |-
+      title: Publications
+      text: 
       filters:
         folders:
           - publication
