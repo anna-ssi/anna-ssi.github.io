@@ -6,5 +6,5 @@ main:
     url: /
     weight: 10
   - name: Publications
-    url: '#pubs'
+    url: /pubs
     weight: 20
