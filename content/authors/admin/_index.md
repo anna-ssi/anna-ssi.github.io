@@ -47,7 +47,15 @@ profiles:
   - icon: academicons/cv
     url: uploads/Anna_CV.pdf
 
+# Education to show in About widget
 education:
+  courses:
+    - course: MSc in Computing Science
+      institution: University of Alberta
+      year: 2024
+    - course: BSc in Information Technologies
+      institution: National Polytechnic University of Armenia
+      year: 2021
 
 
 # Highlight the author in author lists? (true/false)
