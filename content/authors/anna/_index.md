@@ -57,13 +57,20 @@ interests:
   - Human and animal behaviors
 
 education:
-  courses:
-    - course: MSc in Computing Science
-      institution: University of Alberta
-      year: 2024
-    - course: BSc in Information Technologies
-      institution: National Polytechnic University of Armenia
-      year: 2021
+  - area: MSc in Computing Science
+    institution: University of Alberta
+    # date_start: 2016-01-01
+    date_end: 2024
+    # summary: |
+    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+  - area: BSc in Information Technologies
+    institution: National Polytechnic University of Armenia
+    # date_start: 2016-01-01
+    date_end: 2021
+  
 ---
 
 I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my Masters degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  I completed my bachelor's of IT at the National Polytechnic University of Armenia (NPUA).
