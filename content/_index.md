@@ -4,7 +4,7 @@ date: 2024-09-25
 type: landing
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography-2
     content:
       # The user's folder name in content/authors/
       username: anna
