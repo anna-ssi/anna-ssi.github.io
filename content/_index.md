@@ -5,6 +5,7 @@ type: landing
 
 sections:
   - block: resume-biography
+    id: about
     content:
       # The user's folder name in content/authors/
       username: admin

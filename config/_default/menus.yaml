@@ -2,11 +2,9 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: hakhverd@ualberta.ca
+  - name: Home
+    url: '#about'
     weight: 10
-#   - name: Topics
-#     url: tags/
-#     weight: 20
-#   - name: Uses
-#     url: uses/
-#     weight: 30
+  - name: Publications
+    url: '#pubs'
+    weight: 20
