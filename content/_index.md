@@ -24,6 +24,6 @@ sections:
         folders:
           - publication
     design:
-      columns: '1'
-      view: citation
+      view: article-grid
+      columns: 2
 ---
