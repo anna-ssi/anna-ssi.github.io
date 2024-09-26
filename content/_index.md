@@ -24,6 +24,6 @@ sections:
           - publication
         exclude_featured: false
     design:
-      columns: '2'
-      view: citation
+      columns: '1'
+      view: compact
 ---
