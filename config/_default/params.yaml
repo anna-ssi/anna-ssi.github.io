@@ -33,6 +33,7 @@ header:
     blox: "navbar"
     show_search: true
     show_theme_chooser: true
+    show_logo: true
     # logo:
     #   text: "Anna Hakhverdyan"
 
