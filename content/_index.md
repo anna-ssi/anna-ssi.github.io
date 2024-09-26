@@ -24,5 +24,5 @@ sections:
           - publication
     design:
       columns: '1'
-      view: list
+      view: citation
 ---
