@@ -13,7 +13,7 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
       biography:
-        style: 'text-align: justify; font-size: 1.2em;'
+        style: 'text-align: justify; font-size: 1em;'
         
   # - block: collection
   #   id: pubs
