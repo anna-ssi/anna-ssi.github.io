@@ -3,7 +3,7 @@
 
 main:
   - name: Home
-    url: '#about'
+    url: /
     weight: 10
   - name: Publications
     url: '#pubs'
