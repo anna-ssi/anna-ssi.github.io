@@ -19,7 +19,6 @@ sections:
     id: pubs
     content:
       title: Publications
-      text: |-
       filters:
         folders:
           - publication
