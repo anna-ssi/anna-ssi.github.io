@@ -57,6 +57,12 @@ education:
       institution: National Polytechnic University of Armenia
       year: 2021
 
+# Interests to show in About widget
+interests:
+  - Reinforcement Learning
+  - Continual Learning
+  - Single-lifetime agents
+  - Human and animal behaviors
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
