@@ -49,7 +49,7 @@ interests:
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
+social:
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
   - icon: brands/github
