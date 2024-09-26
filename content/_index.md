@@ -11,10 +11,11 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['40px', '0', '40px', '0']
       biography:
         style: 'text-align: justify; font-size: 1em;'
   - block: markdown
+    id: research
     content:
       title: '📚 My Research'
       subtitle: ''
