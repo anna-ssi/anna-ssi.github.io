@@ -19,10 +19,10 @@ sections:
     id: pubs
     content:
       title: Publications
+      text: ""
       filters:
         folders:
           - publication
     design:
       view: citation
-      columns: 2
 ---
