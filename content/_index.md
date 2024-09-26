@@ -15,10 +15,10 @@ sections:
         style: 'text-align: justify; font-size: 0.8em;'
         
   - block: collection
-    id: featured
+    id: pubs
     content:
       title: Publications
-      text: 
+      text: |-
       filters:
         folders:
           - publication
