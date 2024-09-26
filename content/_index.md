@@ -15,15 +15,15 @@ sections:
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
         
-  - block: collection
-    id: pubs
-    content:
-      title: Publications
-      text: |-
-      filters:
-        folders:
-          - publication
-    design:
-      columns: '1'
-      view: citation
+  # - block: collection
+  #   id: pubs
+  #   content:
+  #     title: Publications
+  #     text: |-
+  #     filters:
+  #       folders:
+  #         - publication
+  #   design:
+  #     columns: '1'
+  #     view: citation
 ---
