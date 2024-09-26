@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: '#820000'
+  color: green
 
 # SEO
 marketing:
@@ -29,10 +29,12 @@ marketing:
 # Site header
 header:
   navbar:
-    align: "left"
+    # align: "left"
     enable: true
     show_search: true
     show_theme_chooser: true
+    logo:
+      text: "Anna Hakhverdyan"
 
 # Site footer
 footer:
