@@ -4,7 +4,7 @@ date: 2024-09-25
 type: landing
 
 sections:
-  - block: resume-biography-2
+  - block: resume-biography-3
     content:
       # The user's folder name in content/authors/
       username: anna
@@ -13,7 +13,7 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
       biography:
-        style: 'text-align: justify; font-size: 0.8em;'
+        style: 'text-align: justify; font-size: 1.2em;'
         
   # - block: collection
   #   id: pubs
