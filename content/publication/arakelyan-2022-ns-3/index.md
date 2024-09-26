@@ -8,8 +8,6 @@ authors:
 - Christophe Hauser
 - Xiang Ren
 date: '2022-01-01'
-publishDate: '2024-09-26T00:40:08.662998Z'
-publication_types:
-- article-journal
-publication: '*Advances in Neural Information Processing Systems*'
+publication: 'Advances in Neural Information Processing Systems (NeurIPS 2022)'
+url_pdf: https://arxiv.org/abs/2205.10674
 ---
