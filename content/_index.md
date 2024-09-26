@@ -23,6 +23,6 @@ sections:
         folders:
           - publication
     design:
-      columns: '1'
+      columns: '2'
       view: citation
 ---
