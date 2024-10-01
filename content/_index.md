@@ -26,7 +26,7 @@ sections:
         
     design:
       columns: '1'
-      style: 'text-align: justify; font-size: .8em;'
+      style: 'text-align: justify; font-size: .5em;'
   - block: collection
     id: pubs
     content:
