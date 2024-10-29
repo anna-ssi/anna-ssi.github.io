@@ -28,7 +28,7 @@ organizations:
   # - name: hakhverd@ualberta.ca
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include agents that learn continually in complex environments - like the world we live in.
+bio: I am interested in developing agents that learn continually in complex environments - like the world we live in.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -173,3 +173,5 @@ languages:
 I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my Masters degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  I completed my bachelor's of IT at the National Polytechnic University of Armenia (NPUA).
 
 My lifelong goal is to understand the human mind, which is the primary reason reinforcement learning (RL) picked my interest. Thus, my current research interests and work are about single-lifetime continual learning agents. I am reviewing materials about animal learning and human behaviorism, which are, I believe, the key to unlocking learning principles for lifelong agents.
+
+Contact: hakhverd [at] ualberta [dot] ca
