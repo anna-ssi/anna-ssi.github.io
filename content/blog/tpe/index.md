@@ -32,13 +32,13 @@ where $p(y)$ is the prior distribution representing our initial beliefs about $y
 ### Acquisition function
 Now that we have a probabilistic model to estimate the underlying objective function, we use acquisition functions to pick our next point to evaluate. According to the choice of the acquisition function, we can let pick a point be more **explorative** (checking less-known areas of the search space) or **exploitative** (focusing on areas known to have high values based on current data). 
 
-<!-- For example, one of the most widely used acquisition functions is the upper confidence bound (UCB). The typical form of the UCB is as follows:
+For example, one of the most widely used acquisition functions is the upper confidence bound (UCB). The typical form of the UCB is as follows:
 {{< math >}}
 $$
     f'(x) = \mu(x) + \kappa \sigma(x)
 $$
 {{< /math >}}
-where $\mu(x)$  is the predicted mean and $\sigma(x)$ is the standard deviation (uncertainty) at point $x$, both estimated using the surrogate model. The parameter $\kappa$ controls the trade-off between exploration and exploitation: a high $\kappa$ encourages exploration by sampling points with high uncertainty, while a low $\kappa$ promotes exploitation by sampling points with high predicted values. -->
+<!-- where $\mu(x)$  is the predicted mean and $\sigma(x)$ is the standard deviation (uncertainty) at point $x$, both estimated using the surrogate model. The parameter $\kappa$ controls the trade-off between exploration and exploitation: a high $\kappa$ encourages exploration by sampling points with high uncertainty, while a low $\kappa$ promotes exploitation by sampling points with high predicted values. -->
 
 <!-- ### Expected Improvement
 In the Tree-structured Parzen Estimator (TPE) approach, the Expected Improvement (EI) acquisition function is used to select the next evaluation point.
