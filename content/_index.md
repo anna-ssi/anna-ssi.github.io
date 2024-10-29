@@ -1,5 +1,5 @@
 ---
-title: Anna Hakhverdyan's homepage
+title: Anna Hakhverdyan
 date: 2024-09-25
 type: landing
 
