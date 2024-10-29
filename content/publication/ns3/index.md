@@ -6,7 +6,7 @@ title: 'NS3: Neuro-symbolic Semantic Code Search'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Shushan Arakelyan
-  - Anna Hakhverdyan
+  - anna
   - Miltiadis Allamanis
   - Luis Garcia
   - Christophe Hauser

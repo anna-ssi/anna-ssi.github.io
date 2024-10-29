@@ -11,7 +11,7 @@ sections:
       text: ""
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Anna_CV.pdf
     design:
       spacing:
         padding: ['60px', '0', '60px', '0']
@@ -25,6 +25,7 @@ sections:
       filters:
         folders:
           - publication
+      exclude_featured: false
     design:
       view: citation
 ---

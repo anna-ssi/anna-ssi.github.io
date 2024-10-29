@@ -47,8 +47,8 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/anna-hakhverdyan-167220175/
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  - icon: academicons/cv
-    url: uploads/Anna_CV.pdf
+  # - icon: academicons/cv
+  #   url: uploads/Anna_CV.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -57,7 +57,7 @@ interests:
   - Reinforcement Learning
   - Continual Learning
   - Single-lifetime agents
-  - Human and animal behaviors
+  - Robust Learning
 
 education:
   - area: MSc in Computing Science
