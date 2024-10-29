@@ -134,7 +134,7 @@ skills:
       - name: Bash, Version Control
         description: ''
         percent: 100
-        icon: "custom/git"
+        icon: share
       - name: SQL, NoSQL
         description: ''
         percent: 40
