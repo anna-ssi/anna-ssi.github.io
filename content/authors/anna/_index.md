@@ -54,10 +54,10 @@ profiles:
 highlight_name: true
 
 interests:
-  - Reinforcement Learning
-  - Continual Learning
+  - Continual Reinforcement Learning
   - Single-lifetime agents
   - Robust Learning
+  - Resource-constrained Learning
 
 education:
   - area: MSc in Computing Science
@@ -170,8 +170,10 @@ languages:
     percent: 40 
 ---
 
-I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my Masters degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  I completed my bachelor's of IT at the National Polytechnic University of Armenia (NPUA).
+I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my MSc degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  Prior to that, I obtained a BSc from the National Polytechnic University of Armenia (NPUA) in Information Technologies (IT).
 
-My lifelong goal is to understand the human mind, which is the primary reason reinforcement learning (RL) picked my interest. Thus, my current research interests and work are about single-lifetime continual learning agents. I am reviewing materials about animal learning and human behaviorism, which are, I believe, the key to unlocking learning principles for lifelong agents.
+My current research is focused on online reinforcement learning, particularly on designing adaptable agents that can learn tasks robustly, even as their surroundings change. In my MSc thesis, I explored how adjusting various hyperparameters could enhance this adaptability.
+
+Lately, I've become increasingly interested in the concept of agents that are aware of their limitations - whether computational or otherwise - and capable of recognizing and adapting to changes they've made in their surroundings. I believe this _self-awareness_ could help with more efficient learning and the emergence of agency. Ultimately, my goal is to develop methods compelling enough to attract interest from psychologists to study agent behaviors.
 
 Contact: hakhverd [at] ualberta [dot] ca
