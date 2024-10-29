@@ -83,11 +83,11 @@ So now let's look at how we can apply this to the Expected Improvement acquisiti
 
 {{< math >}}
 $$
-EI(x) &= \int_{-\infty}^{y^*} (y^* - y) p(y|x) \, dy = \int_{-\infty}^{y^*} (y^* - y) \frac{p(x|y)p(y)}{p(x)} \, dy \\
-      &= \frac{1}{p(x)} \int_{-\infty}^{y^*} (y^* - y) p(x|y) p(y) \, dy \\
-      &= \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} (y^* - y) p(y) \, dy \\
-      &= \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y^* p(y) \, dy - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
-      &= \frac{l(x) y^*}{p(x)} \int_{-\infty}^{y^*} p(y) \, dy - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
-      &= \frac{l(x) y^* \gamma}{p(x)} - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
+EI(x) = \int_{-\infty}^{y^*} (y^* - y) p(y|x) \, dy = \int_{-\infty}^{y^*} (y^* - y) \frac{p(x|y)p(y)}{p(x)} \, dy \\
+      = \frac{1}{p(x)} \int_{-\infty}^{y^*} (y^* - y) p(x|y) p(y) \, dy \\
+      = \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} (y^* - y) p(y) \, dy \\
+      = \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y^* p(y) \, dy - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
+      = \frac{l(x) y^*}{p(x)} \int_{-\infty}^{y^*} p(y) \, dy - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
+      = \frac{l(x) y^* \gamma}{p(x)} - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
 $$
 {{< /math >}}
