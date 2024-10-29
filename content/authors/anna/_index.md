@@ -144,8 +144,6 @@ skills:
         percent: 100
         icon: building-library
   - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
     items:
       - name: Reading
         description: ''
