@@ -79,7 +79,7 @@ $$
 The TPE algorithm picks the value for the $y^*$ some quantile $\gamma$ away from the observed $y$ values: $p(y < y^*) = \gamma$. This allows for observations to be picked for constructing the $l(x)$, and we don't need to have any prior of $p(y)$ to do this.
 
 
-<!-- So now let's look at how we can apply this to the Expected Improvement acquisition function. We have a cap on the range of the values we care about, in this case, $y^*$, which allows us to remove the max operator and only look at the part where $p(y|x) = l(x)$, as we only consider the $y$ that are smaller than the $y^*$.
+So now let's look at how we can apply this to the Expected Improvement acquisition function. We have a cap on the range of the values we care about, in this case, $y^*$, which allows us to remove the max operator and only look at the part where $p(y|x) = l(x)$, as we only consider the $y$ that are smaller than the $y^*$.
 
 {{< math >}}
 $$
@@ -90,4 +90,4 @@ EI(x) &= \int_{-\infty}^{y^*} (y^* - y) p(y|x) \, dy = \int_{-\infty}^{y^*} (y^*
       &= \frac{l(x) y^*}{p(x)} \int_{-\infty}^{y^*} p(y) \, dy - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
       &= \frac{l(x) y^* \gamma}{p(x)} - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
 $$
-{{< /math >}} -->
+{{< /math >}}
