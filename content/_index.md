@@ -51,4 +51,6 @@ sections:
     content:
       title: Languages
       username: anna
+    design:
+      show_skill_percentage: false
 ---
