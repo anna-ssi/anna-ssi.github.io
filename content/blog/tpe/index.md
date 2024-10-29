@@ -91,3 +91,24 @@ EI(x) = \int_{-\infty}^{y^*} (y^* - y) p(y|x) \, dy = \int_{-\infty}^{y^*} (y^* 
       = \frac{l(x) y^* \gamma}{p(x)} - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
 $$
 {{< /math >}}
+
+According to the above equation, to maximize the expected improvement, we would like points $x$ with a high probability under $l(x)$ and a low probability under $g(x)$. 
+The tree-structured form of $l$ and $g$ makes it easy to draw many candidates according to $l(x)$ and evaluate them according to $g(x)/l(x)$. On each iteration, the algorithm returns the candidate $x^{*}$ with the greatest EI.
+
+Now, let's see how we can estimate $l(x)$ and $g(x)$ using Parzen window estimators, a statistical model for density estimation, which is also called the kernel density estimator. Given the type of the $x$ (integer, real, categorical), Parzen estimators approximate the densities differently. For real values, the formula is 
+{{< math >}}
+$$
+    p(x) = \frac{\sum_{x' \in D_x} w_{x'} k(x, x') + w_p k(x, x_p)}{\sum_{x' \in D} w_{x'} + w_p}
+$$
+{{< /math >}}
+where $D_x \in \{D_l, D_g \}$ is a set of observed data points in either of the distributions, $w_{x'}$ is the weight for each observed data point (it can be set to favor the most recent data more, but they are often set uniformly), $x_p$ is the prior distribution (uniform, log-uniform) and $w_p$ corresponds to the weight for the prior distribution. $k(x, x')$ is the kernel function measuring similarity between $x$ and $x'$, which in TPE is usually set to a truncated Gaussian distribution $\mathcal{N}(\mu, \sigma, a, b)$. In other words, TPE uses a weighted average of truncated Gaussian distributions to approximate a continuous density function of the given observations.
+
+{{< math >}}
+$$
+    k(x, x') =
+        \begin{cases} 
+        \exp\left(-\frac{\|x - x'\|^2}{2 \sigma^2}\right), & \text{if } a \leq \|x - x'\| \leq b \\ 
+        0, & \text{otherwise}
+        \end{cases}
+$$
+{{< /math >}}
