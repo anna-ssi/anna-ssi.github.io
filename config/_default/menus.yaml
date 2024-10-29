@@ -12,6 +12,6 @@ main:
     url: /#exp
     weight: 30
   - name: Blog
-    url: /#blog
+    url: blog/
     weight: 40
   
