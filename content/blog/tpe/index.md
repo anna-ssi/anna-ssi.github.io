@@ -135,18 +135,18 @@ To account for the dependencies between the parameters, Optuna uses Multivariate
 
 ## References
 
-[1] Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori
+Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori
 Koyama. Optuna: A next-generation hyperparameter optimization frame-
 work. In Proceedings of the _25th ACM SIGKDD international conference on
 knowledge discovery & data mining_, 2019.
 
-[2] James Bergstra, R´emi Bardenet, Yoshua Bengio, and Bal´azs K´egl. Algorithms
+James Bergstra, R´emi Bardenet, Yoshua Bengio, and Bal´azs K´egl. Algorithms
 for hyper-parameter optimization. _Advances in neural information processing
 systems_, 2011.
 
-[3] P Kingma Diederik and Jimmy Ba. Adam: A method for stochastic optimiza-
+P Kingma Diederik and Jimmy Ba. Adam: A method for stochastic optimiza-
 tion. _International Conference for Learning Representations_, 2015.
 
-[4] Shuhei Watanabe. Tree-structured parzen estimator: Understanding its algo-
+Shuhei Watanabe. Tree-structured parzen estimator: Understanding its algo-
 rithm components and their roles for better empirical performance. _arxiv
 abs/2304.11127_, 2023.
