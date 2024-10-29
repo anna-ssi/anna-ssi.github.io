@@ -176,4 +176,4 @@ My current research is focused on online reinforcement learning, particularly on
 
 Lately, I've become increasingly interested in the concept of agents that are aware of their limitations - whether computational or otherwise - and capable of recognizing and adapting to changes they've made in their surroundings. I believe this _self-awareness_ could help with more efficient learning and the emergence of agency. Ultimately, my goal is to develop methods compelling enough to attract interest from psychologists to study agent behaviors.
 
-Contact: hakhverd [at] ualberta [dot] ca
+**Contact:** hakhverd [at] ualberta [dot] ca
