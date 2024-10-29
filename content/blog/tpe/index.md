@@ -9,6 +9,7 @@ tags:
 ---
 
 This tutorial aims to introduce the concepts behind the Tree-structured Parzen Estimator (TPE), the default hyperparameter optimization algorithm in Optuna. We will delve into key ideas in Bayesian optimization, such as surrogate models and acquisition functions, and demonstrate how TPE differs from Gaussian Processes (GP), another popular method for Bayesian optimization.
+{{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" >}}
 
 ## Bayesian Optimization
 
