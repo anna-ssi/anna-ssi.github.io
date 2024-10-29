@@ -4,9 +4,9 @@ summary: This tutorial aims to introduce the concepts behind the Tree-structured
 date: 2024-10-28
 type: docs
 math: true
-button:
-    text: TPE Sampler
-    url: uploads/TPE.pdf
+# button:
+#     text: TPE Sampler
+#     url: uploads/TPE.pdf
 tags:
   - TPE, Bayesian optimization
 ---
