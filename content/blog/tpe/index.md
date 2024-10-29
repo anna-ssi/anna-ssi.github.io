@@ -28,3 +28,41 @@ p(y|x) = \frac{p(x|y)p(y)}{p(x)} = \frac{p(x|y)p(y)}{\int p(x|y)p(y)dy}
 $$
 {{< /math >}}
 where $p(y)$ is the prior distribution representing our initial beliefs about $y$, $p(x|y)$ is the likelihood of observing $x$ given $y$, and $p(x)$ is the marginal probability of $x$ under all possible values of $y$. Bayesian inference enables us to refine our estimates of the relationship between $x$ and $y$ by combining prior knowledge with new observations.
+
+### Acquisition function
+Now that we have a probabilistic model to estimate the underlying objective function, we use acquisition functions to pick our next point to evaluate. According to the choice of the acquisition function, we can let pick a point be more **explorative** (checking less-known areas of the search space) or **exploitative** (focusing on areas known to have high values based on current data). 
+
+For example, one of the most widely used acquisition functions is the upper confidence bound (UCB). The typical form of the UCB is as follows:
+{{< math >}}
+$$
+    f'(x) = \mu(x) + \kappa \sigma(x)
+$$
+{{< /math >}}
+where $\mu(x)$  is the predicted mean and $\sigma(x)$ is the standard deviation (uncertainty) at point $x$, both estimated using the surrogate model. The parameter $\kappa$ controls the trade-off between exploration and exploitation: a high $\kappa$ encourages exploration by sampling points with high uncertainty, while a low $\kappa$ promotes exploitation by sampling points with high predicted values.
+
+### Expected Improvement
+In the Tree-structured Parzen Estimator (TPE) approach, the Expected Improvement (EI) acquisition function is used to select the next evaluation point.
+
+Expected Improvement acquisition function has the following form:
+{{< math >}}
+$$
+    EI(x) = \mathbb{E} \left[ \max (y^* - y, 0) \right] = \int_{-\infty}^{\infty} \max (y^* - y, 0) p(y|x)dy
+$$
+{{< /math >}}
+where $y^*$ is the best (minimum) value observed so far, and $p(y|x)$ is the surrogate model. EI quantifies the amount of improvement with the new point $x$ over the current best-known value of $y^*$. One way of thinking about this acquisition function is that it tries to select the point that minimizes the distance to the objective evaluated at the maximum. 
+
+This expectation can be expressed analytically in terms of the cumulative distribution function (CDF) and probability density function (PDF) of a standard normal distribution:
+{{< math >}}
+$$
+    EI(x) = (y^* - \mu(x)) \Phi\left(\frac{y^* - \mu(x)}{\sigma(x)} \right) + \sigma(x) \phi\left( \frac{y^* - \mu(x)}{\sigma(x)} \right)
+$$
+{{< /math >}}
+where $\Phi(\cdot)$ is the CDF and $\phi(\cdot)$ is the PDF of the standard normal distribution. The CDF here indicates the probability that the predicted function value $\mu(x)$ is less than the current best-known value $y^*$, while PDF helps calculate the expected improvement over the current best value $y^*$ across all possible values $y$. The expected improvement will be high if the difference between the best-known value and our estimate of the function $y^* - \mu(x)$ is high or the uncertainty around the point $x$ is high. 
+
+## Tree-structured Parzen Estimator (TPE)
+
+When using Gaussian Processes (GP), another estimator widely used in BO, to model the objective function, we typically approximate the distribution of the outputs given the inputs, $p(y|x)$, directly. In contrast, the Tree-structured Parzen Estimator (TPE) takes a different approach by modeling $p(x|y)$ and $p(y)$ separately. This distinction allows TPE to avoid specifying a prior over the objective function itself. Instead, it leverages the observed data and initial distributions over inputs to estimate these densities, making it more flexible in handling complex, high-dimensional search spaces.
+
+Tree-structured Parzen Estimators (TPE) derive their name from the combination of Parzen estimators to model the probability distributions of hyperparameters and a structured, graph-like approach to represent hyperparameter configurations. In this tree-like representation, each hyperparameter is a node, and edges denote the dependencies between them. For example, the choice of the optimizer (e.g., Adam) and the learning rate can be seen as interconnected nodes. This structured representation allows TPE to focus on updating only the relevant parts of the model when new observations are made. It also facilitates establishing dependencies among random variables, making conditional sampling more efficient and enabling the algorithm to optimize the search space faster.
+
+To estimate the $p(x|y)$ without relying on $p(y)$, TPE updates the prior distributions of the configuration parameters (e.g., uniform, log-uniform, categorical) to a parametric mixture of densities (e.g., a mixture of Gaussians). This helps estimate each of the nodes in the graph using the observation data collected, where kernel functions, like RBF, give the similarity or distance between the observation points. Using these densities, TPE approximates the surrogate model by estimating the probabilities of the observations given the performance metric (like accuracy or error rate) using that configuration.  
