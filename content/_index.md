@@ -37,6 +37,12 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: true
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: anna
+    design:
+      show_skill_percentage: false
   - block: resume-languages
     content:
       title: Languages

@@ -76,7 +76,91 @@ education:
     
     summary: |
       GPA: 3.92/4.0
-  
+
+work:
+  - position: Research Assistant
+    company_name: University of Alberta - RLAI Lab
+    company_url: 'http://rlai.ualberta.ca/'
+    company_logo: ''
+    date_start: 2024-09-16
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - Finishing up my thesis work for journal submission.
+      - Developing a suite of environments for process control.
+      - Working on developing environments suitable for Continual learning.
+      - Understanding and evaluating RL agents in curated animal learning experiments.
+  - position: Machine Learning Engineer
+    company_name: Magical Labs
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-10-01
+    date_end: 2022-07-31
+    summary: |
+      Responsibilities include:
+      - Developed models and pipelines for autonomous vehicle control.
+      - Worked on compressing large neural networks with RL agents for mobile integration.
+  - position: Machine Learning Engineer
+    company_name: Perpetuum Motors
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-12-01
+    date_end: 2021-10-01
+    summary: |
+      Responsibilities include:
+      - Conducted research on developing an end-to-end autonomous driving pipeline for simulated games.
+  - position: Software Engineer
+    company_name: ForgeFiction
+    company_url: ''
+    company_logo: ''
+    date_start: 2018-12-01
+    date_end: 2020-01-31
+    summary: |
+      Responsibilities include:
+      - Developed and designed API requests and database architectures.
+      - Optimized the application for maximum speed and scalability.
+
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
+# Bash, Version Control, SQL, NoSQL
+# Libraries: Jax, Pytorch, Numpy, Pandas, sklearn, gymnax, brax
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Bash, Version Control
+        description: ''
+        percent: 100
+        icon: git
+      - name: SQL, NoSQL
+        description: ''
+        percent: 40
+        icon: circle-stack
+      - name: Jax, PyTorch, Numpy
+        description: ''
+        percent: 100
+        icon: building-library
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Reading
+        description: ''
+        percent: 60
+        icon: book-open
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera
+      - name: Kickboxing
+        description: ''
+        percent: 80
+        icon: boxing-glove
+
+
 languages:
   - name: Armenian
     percent: 100
