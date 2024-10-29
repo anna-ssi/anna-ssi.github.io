@@ -66,3 +66,28 @@ When using Gaussian Processes (GP), another estimator widely used in BO, to mode
 Tree-structured Parzen Estimators (TPE) derive their name from the combination of Parzen estimators to model the probability distributions of hyperparameters and a structured, graph-like approach to represent hyperparameter configurations. In this tree-like representation, each hyperparameter is a node, and edges denote the dependencies between them. For example, the choice of the optimizer (e.g., Adam) and the learning rate can be seen as interconnected nodes. This structured representation allows TPE to focus on updating only the relevant parts of the model when new observations are made. It also facilitates establishing dependencies among random variables, making conditional sampling more efficient and enabling the algorithm to optimize the search space faster.
 
 To estimate the $p(x|y)$ without relying on $p(y)$, TPE updates the prior distributions of the configuration parameters (e.g., uniform, log-uniform, categorical) to a parametric mixture of densities (e.g., a mixture of Gaussians). This helps estimate each of the nodes in the graph using the observation data collected, where kernel functions, like RBF, give the similarity or distance between the observation points. Using these densities, TPE approximates the surrogate model by estimating the probabilities of the observations given the performance metric (like accuracy or error rate) using that configuration.  
+
+TPE defines $p(x|y)$ using two densities:
+{{< math >}}
+$$
+    p(x|y) = \begin{cases}
+  l(x), & y < y^* \\
+  g(x), & y \geq y^*
+  \end{cases} \text{, where } y = f(x^{(i)}), x \in \mathcal{D}
+$$
+{{< /math >}}
+The TPE algorithm picks the value for the $y^*$ some quantile $\gamma$ away from the observed $y$ values: $p(y < y^*) = \gamma$. This allows for observations to be picked for constructing the $l(x)$, and we don't need to have any prior of $p(y)$ to do this.
+
+
+<!-- So now let's look at how we can apply this to the Expected Improvement acquisition function. We have a cap on the range of the values we care about, in this case, $y^*$, which allows us to remove the max operator and only look at the part where $p(y|x) = l(x)$, as we only consider the $y$ that are smaller than the $y^*$.
+
+{{< math >}}
+$$
+EI(x) &= \int_{-\infty}^{y^*} (y^* - y) p(y|x) \, dy = \int_{-\infty}^{y^*} (y^* - y) \frac{p(x|y)p(y)}{p(x)} \, dy \\
+      &= \frac{1}{p(x)} \int_{-\infty}^{y^*} (y^* - y) p(x|y) p(y) \, dy \\
+      &= \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} (y^* - y) p(y) \, dy \\
+      &= \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y^* p(y) \, dy - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
+      &= \frac{l(x) y^*}{p(x)} \int_{-\infty}^{y^*} p(y) \, dy - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
+      &= \frac{l(x) y^* \gamma}{p(x)} - \frac{l(x)}{p(x)} \int_{-\infty}^{y^*} y p(y) \, dy \\
+$$
+{{< /math >}} -->
