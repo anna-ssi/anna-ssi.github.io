@@ -9,6 +9,9 @@ sections:
       # The user's folder name in content/authors/
       username: anna
       text: ""
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
     design:
       spacing:
         padding: ['60px', '0', '60px', '0']
