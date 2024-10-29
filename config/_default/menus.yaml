@@ -11,3 +11,7 @@ main:
   - name: Experience
     url: /#exp
     weight: 30
+  - name: Blog
+    url: /#blog
+    weight: 40
+  
