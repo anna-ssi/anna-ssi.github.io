@@ -8,3 +8,6 @@ main:
   - name: Publications
     url: /#pubs
     weight: 20
+  - name: Experience
+    url: /#exp
+    weight: 30

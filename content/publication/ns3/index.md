@@ -30,7 +30,7 @@ abstract: Semantic code search is the task of retrieving a code snippet given a 
 tags: [ML for Code, Generalizable Models for Code]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:

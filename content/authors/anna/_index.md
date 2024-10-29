@@ -3,7 +3,7 @@
 title: Anna Hakhverdyan
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: Աննա Հախվերդյան
 
 # Full name (for SEO)
 first_name: Anna
@@ -28,7 +28,7 @@ organizations:
   # - name: hakhverd@ualberta.ca
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include agents that learn continually in complex environments - like the world we live in.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -62,23 +62,26 @@ interests:
 education:
   - area: MSc in Computing Science
     institution: University of Alberta
-    # date_start: 2016-01-01
-    date_end: 2024
-    # summary: |
-    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
+    date_start: 2023-01-05
+    date_end: 2024-09-03
+    summary: |
+      GPA: 3.8/4.0
+
+      My Master's thesis explores online hyperparameter tuning in reinforcement learning, where an agent adapts its hyperparameters during interactions rather than relying on a pre-tuning phase.
+
   - area: BSc in Information Technologies
     institution: National Polytechnic University of Armenia
-    # date_start: 2016-01-01
-    date_end: 2021
+    date_start: 2016-10-10
+    date_end: 2021-05-15
+    
+    summary: |
+      GPA: 3.92/4.0
   
 languages:
-  - name: English
-    percent: 100
   - name: Armenian
     percent: 100
+  - name: English
+    percent: 95
   - name: Russian
     percent: 95
   - name: Japanese
