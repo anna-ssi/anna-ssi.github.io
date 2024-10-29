@@ -101,7 +101,7 @@ $$
     p(x) = \frac{\sum_{x' \in D_x} w_{x'} k(x, x') + w_p k(x, x_p)}{\sum_{x' \in D} w_{x'} + w_p}
 $$
 {{< /math >}}
-where $D_x \in \{D_l, D_g \}$ is a set of observed data points in either of the distributions, $w_{x'}$ is the weight for each observed data point (it can be set to favor the most recent data more, but they are often set uniformly), $x_p$ is the prior distribution (uniform, log-uniform) and $w_p$ corresponds to the weight for the prior distribution. $k(x, x')$ is the kernel function measuring similarity between $x$ and $x'$, which in TPE is usually set to a truncated Gaussian distribution $\mathcal{N}(\mu, \sigma, a, b)$. In other words, TPE uses a weighted average of truncated Gaussian distributions to approximate a continuous density function of the given observations.
+where $D_x \in \{D\\_l, D\\_g \}$ is a set of observed data points in either of the distributions, $w\\_{x'}$ is the weight for each observed data point (it can be set to favor the most recent data more, but they are often set uniformly), $x\\_p$ is the prior distribution (uniform, log-uniform) and $w_p$ corresponds to the weight for the prior distribution. $k(x, x')$ is the kernel function measuring similarity between $x$ and $x'$, which in TPE is usually set to a truncated Gaussian distribution $\mathcal{N}(\mu, \sigma, a, b)$. In other words, TPE uses a weighted average of truncated Gaussian distributions to approximate a continuous density function of the given observations.
 
 {{< math >}}
 $$
@@ -112,3 +112,23 @@ $$
         \end{cases}
 $$
 {{< /math >}}
+
+
+For categorical or discrete values, a simple weighted histogram is used to estimate the density 
+{{< math >}}
+$$
+    p(x) = \sum_{x' \in D_x} w_{x'} \textbf{1}_c(x) + w_p,
+$$
+{{< /math >}}
+where each category $c \in X$ 
+{{< math >}}
+$$
+    \textbf{1}_c(x) = \begin{cases}
+        1, & \text{ if } x = c \\
+        0, & \text{ otherwise.}
+    \end{cases}
+$$
+{{< /math >}}
+In other words, it updates the histogram according to the weighted occurrences of the observed categorical values.
+
+To account for the dependencies between the parameters, Optuna uses Multivariate TPE sampler, which models $l(x)$ and $g(x)$ directly using single multivariate Parzen window estimators.
