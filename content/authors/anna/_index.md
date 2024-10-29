@@ -155,10 +155,6 @@ skills:
         description: ''
         percent: 80
         icon: camera
-      - name: Kickboxing
-        description: ''
-        percent: 80
-        icon: "custom/boxing"
       - name: Cooking
         icon: "custom/cooking"
 
