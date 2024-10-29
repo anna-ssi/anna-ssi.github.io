@@ -5,9 +5,9 @@ date: 2024-10-28
 type: docs
 math: true
 editable: false
-# button:
-#     text: TPE Sampler
-#     url: uploads/TPE.pdf
+button:
+    text: TPE Sampler
+    url: TPE.pdf
 tags:
   - TPE, Bayesian optimization
 ---
