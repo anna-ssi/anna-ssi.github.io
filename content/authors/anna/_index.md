@@ -134,7 +134,7 @@ skills:
       - name: Bash, Version Control
         description: ''
         percent: 100
-        icon: git
+        icon: devicon/git
       - name: SQL, NoSQL
         description: ''
         percent: 40
@@ -158,7 +158,9 @@ skills:
       - name: Kickboxing
         description: ''
         percent: 80
-        icon: boxing-glove
+        icon: "custom/boxing"
+      - name: Cooking
+        icon: "custom/cooking"
 
 
 languages:

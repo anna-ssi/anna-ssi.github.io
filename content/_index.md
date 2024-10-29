@@ -3,6 +3,10 @@ title: 'Home'
 date: 2024-09-25
 type: landing
 
+design:
+  # Default section spacing
+  spacing: "6rem"
+
 sections:
   - block: resume-biography-3
     content:
