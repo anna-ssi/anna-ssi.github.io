@@ -40,7 +40,7 @@ $$
 {{< /math >}}
 where $\mu(x)$  is the predicted mean and $\sigma(x)$ is the standard deviation (uncertainty) at point $x$, both estimated using the surrogate model. The parameter $\kappa$ controls the trade-off between exploration and exploitation: a high $\kappa$ encourages exploration by sampling points with high uncertainty, while a low $\kappa$ promotes exploitation by sampling points with high predicted values.
 
-### Expected Improvement
+<!-- ### Expected Improvement
 In the Tree-structured Parzen Estimator (TPE) approach, the Expected Improvement (EI) acquisition function is used to select the next evaluation point.
 
 Expected Improvement acquisition function has the following form:
@@ -65,4 +65,4 @@ When using Gaussian Processes (GP), another estimator widely used in BO, to mode
 
 Tree-structured Parzen Estimators (TPE) derive their name from the combination of Parzen estimators to model the probability distributions of hyperparameters and a structured, graph-like approach to represent hyperparameter configurations. In this tree-like representation, each hyperparameter is a node, and edges denote the dependencies between them. For example, the choice of the optimizer (e.g., Adam) and the learning rate can be seen as interconnected nodes. This structured representation allows TPE to focus on updating only the relevant parts of the model when new observations are made. It also facilitates establishing dependencies among random variables, making conditional sampling more efficient and enabling the algorithm to optimize the search space faster.
 
-To estimate the $p(x|y)$ without relying on $p(y)$, TPE updates the prior distributions of the configuration parameters (e.g., uniform, log-uniform, categorical) to a parametric mixture of densities (e.g., a mixture of Gaussians). This helps estimate each of the nodes in the graph using the observation data collected, where kernel functions, like RBF, give the similarity or distance between the observation points. Using these densities, TPE approximates the surrogate model by estimating the probabilities of the observations given the performance metric (like accuracy or error rate) using that configuration.  
+To estimate the $p(x|y)$ without relying on $p(y)$, TPE updates the prior distributions of the configuration parameters (e.g., uniform, log-uniform, categorical) to a parametric mixture of densities (e.g., a mixture of Gaussians). This helps estimate each of the nodes in the graph using the observation data collected, where kernel functions, like RBF, give the similarity or distance between the observation points. Using these densities, TPE approximates the surrogate model by estimating the probabilities of the observations given the performance metric (like accuracy or error rate) using that configuration.   -->
