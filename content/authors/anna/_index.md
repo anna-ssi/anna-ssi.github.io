@@ -131,10 +131,10 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Bash, Version Control
-        description: ''
-        percent: 100
-        icon: rectangle-group
+      # - name: Bash, Version Control
+      #   description: ''
+      #   percent: 100
+      #   icon: rectangle-group
       - name: SQL, NoSQL
         description: ''
         percent: 40
