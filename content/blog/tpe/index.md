@@ -38,7 +38,7 @@ $$
     f'(x) = \mu(x) + \kappa \sigma(x)
 $$
 {{< /math >}}
-<!-- where $\mu(x)$  is the predicted mean and $\sigma(x)$ is the standard deviation (uncertainty) at point $x$, both estimated using the surrogate model. The parameter $\kappa$ controls the trade-off between exploration and exploitation: a high $\kappa$ encourages exploration by sampling points with high uncertainty, while a low $\kappa$ promotes exploitation by sampling points with high predicted values. -->
+where $\mu(x)$  is the predicted mean and $\sigma(x)$ is the standard deviation (uncertainty) at point $x$, both estimated using the surrogate model. The parameter $\kappa$ controls the trade-off between exploration and exploitation: a high $\kappa$ encourages exploration by sampling points with high uncertainty, while a low $\kappa$ promotes exploitation by sampling points with high predicted values.
 
 <!-- ### Expected Improvement
 In the Tree-structured Parzen Estimator (TPE) approach, the Expected Improvement (EI) acquisition function is used to select the next evaluation point.
