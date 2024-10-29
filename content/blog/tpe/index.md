@@ -1,6 +1,6 @@
 ---
 title: Tree-structured Parzen Estimator (TPE)
-summary: This tutorial aims to introduce the concepts behind the Tree-structured Parzen Estimator (TPE) \citep{bergstra2011algorithms}, the default hyperparameter optimization algorithm in Optuna \citep{akiba2019optuna}. We will delve into key ideas in Bayesian optimization, such as surrogate models and acquisition functions, and demonstrate how TPE differs from Gaussian Processes (GP), another popular method for Bayesian optimization.
+summary: The concepts behind the Tree-structured Parzen Estimator (TPE), the default hyperparameter optimization algorithm in Optuna.
 date: 2024-10-28
 type: docs
 math: true
@@ -138,16 +138,16 @@ To account for the dependencies between the parameters, Optuna uses Multivariate
 
 Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori
 Koyama. Optuna: A next-generation hyperparameter optimization frame-
-work. In Proceedings of the 25th ACM SIGKDD international conference on
-knowledge discovery & data mining, 2019.
+work. In Proceedings of the _25th ACM SIGKDD international conference on
+knowledge discovery & data mining_, 2019.
 
 James Bergstra, R´emi Bardenet, Yoshua Bengio, and Bal´azs K´egl. Algorithms
-for hyper-parameter optimization. Advances in neural information processing
-systems, 2011.
+for hyper-parameter optimization. _Advances in neural information processing
+systems_, 2011.
 
 P Kingma Diederik and Jimmy Ba. Adam: A method for stochastic optimiza-
-tion. International Conference for Learning Representations, 2015.
+tion. _International Conference for Learning Representations_, 2015.
 
 Shuhei Watanabe. Tree-structured parzen estimator: Understanding its algo-
-rithm components and their roles for better empirical performance. arxiv
-abs/2304.11127, 2023.
+rithm components and their roles for better empirical performance. _arxiv
+abs/2304.11127_, 2023.
