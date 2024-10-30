@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "4rem"
+  spacing: "5rem"
 
 sections:
   - block: resume-biography-3
@@ -47,7 +47,7 @@ sections:
       username: anna
     design:
       spacing:
-        padding: ['60px', '0', '20px', '0']
+        padding: ['60px', '-40px', '20px', '0']
       show_skill_percentage: false
   - block: resume-languages
     content:
