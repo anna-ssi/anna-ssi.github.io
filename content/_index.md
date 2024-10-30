@@ -46,7 +46,7 @@ sections:
       title: Skills & Hobbies
       username: anna
     design:
-      show_skill_percentage: false
+      title_align: center
   - block: resume-languages
     content:
       title: Languages
