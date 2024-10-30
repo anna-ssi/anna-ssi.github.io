@@ -1,4 +1,11 @@
 .avatar {
-    width: 300px !important;
-    height: 300px !important;
-  }
+  width: 300px !important; // Adjust this value as needed
+  height: 300px !important; // Keep same as width
+  padding: 4px !important; // Adjust the border padding if needed
+}
+
+// If you want to target this specific instance even more precisely:
+img.avatar.rounded-full {
+  width: 300px !important;
+  height: 300px !important;
+}
