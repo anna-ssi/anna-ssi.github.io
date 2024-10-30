@@ -48,8 +48,6 @@ sections:
     design:
       show_skill_percentage: false
       title_align: center
-      columns: '2'
-      text_align: center
 
   - block: resume-languages
     content:
