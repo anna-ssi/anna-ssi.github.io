@@ -17,8 +17,6 @@ sections:
         text: Download CV
         url: uploads/Anna_CV.pdf
     design:
-      avatar:
-        size: 350px
       spacing:
         padding: ['60px', '0', '60px', '0']
       biography:
