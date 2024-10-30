@@ -47,7 +47,10 @@ sections:
       username: anna
     design:
       show_skill_percentage: false
-      title_align: center
+      columns: '2'
+      text_align: center
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
 
   - block: resume-languages
     content:
