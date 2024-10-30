@@ -47,10 +47,10 @@ sections:
       username: anna
     design:
       show_skill_percentage: false
+      columns: '2'
+      text_align: center
   - block: resume-languages
     content:
       title: Languages
       username: anna
-    design:
-      show_skill_percentage: false
 ---
