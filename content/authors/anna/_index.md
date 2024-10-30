@@ -131,10 +131,10 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      # - name: Bash, Version Control
-      #   description: ''
-      #   percent: 100
-      #   icon: rectangle-group
+      - name: Bash, Version Control
+        description: ''
+        percent: 100
+        icon: cube-transparent
       - name: SQL, NoSQL
         description: ''
         percent: 40
@@ -160,19 +160,19 @@ skills:
 languages:
   - name: Armenian
     percent: 100
-    icon_size: 2rem
+    icon_size: 1rem
   - name: English
     percent: 95
-    icon_size: 2rem
+    icon_size: 1rem
   - name: Russian
     percent: 95
-    icon_size: 2rem
+    icon_size: 1rem
   - name: Japanese
     percent: 60
-    icon_size: 2rem
+    icon_size: 1rem
   - name: Korean
     percent: 40 
-    icon_size: 2rem
+    icon_size: 1rem
 ---
 
 I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my MSc degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  Prior to that, I obtained a BSc from the National Polytechnic University of Armenia (NPUA) in Information Technologies (IT).
