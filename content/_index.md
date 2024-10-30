@@ -43,12 +43,10 @@ sections:
       is_education_first: true
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: ''
       username: anna
     design:
       show_skill_percentage: false
-      spacing:
-        padding: ["50px", "0", "20px", "0"]
   - block: resume-languages
     content:
       title: Languages
