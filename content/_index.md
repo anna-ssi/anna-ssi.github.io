@@ -21,7 +21,6 @@ sections:
         padding: ['60px', '0', '60px', '0']
       biography:
         style: 'text-align: justify; font-size: 1em;'
-        css_style: ".avatar-circle { width: 350px !important; height: 350px !important; }"
   - block: collection
     id: pubs
     content:
@@ -52,6 +51,4 @@ sections:
     content:
       title: Languages
       username: anna
-    design:
-      css_style: ".language-icon { width: 60px !important; height: 60px !important; }"
 ---
