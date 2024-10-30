@@ -54,7 +54,7 @@ sections:
       # You can adjust the width of the section
       width: wide     # Options: min, max, wide, or custom like '1200px'
       # Add margin between columns
-      css_style: "column-gap: 50px;"
+      css_style: "column-gap: 250px;"
   - block: resume-languages
     content:
       title: Languages
