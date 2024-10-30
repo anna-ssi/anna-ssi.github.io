@@ -46,9 +46,15 @@ sections:
       title: ''
       username: anna
     design:
-      spacing:
-        padding: ['60px', '-40px', '20px', '0']
       show_skill_percentage: false
+      columns: '2'
+      spacing:
+        # Add horizontal padding
+        padding: ["20px", "50px", "20px", "50px"]
+      # You can adjust the width of the section
+      width: wide     # Options: min, max, wide, or custom like '1200px'
+      # Add margin between columns
+      css_style: "column-gap: 50px;"
   - block: resume-languages
     content:
       title: Languages
