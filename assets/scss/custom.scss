@@ -1,4 +1,5 @@
-.avatar-circle {
-    width: 300px !important;  // Adjust this value
-    height: 300px !important; // Keep same as width
+.avatar {
+    width: 300px !important;
+    height: 300px !important;
+    max-width: none !important;
   }
