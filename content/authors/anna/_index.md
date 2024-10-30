@@ -125,7 +125,7 @@ work:
 # Bash, Version Control, SQL, NoSQL
 # Libraries: Jax, Pytorch, Numpy, Pandas, sklearn, gymnax, brax
 skills:
-  - name: Technical Skills
+  - name: 
     items:
       - name: Python
         description: ''
@@ -143,7 +143,7 @@ skills:
         description: ''
         percent: 100
         icon: building-library
-  - name: Hobbies
+  - name: 
     items:
       - name: Reading
         description: ''

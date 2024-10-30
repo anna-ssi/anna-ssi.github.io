@@ -43,7 +43,7 @@ sections:
       is_education_first: true
   - block: resume-skills
     content:
-      title: ''
+      title: 'Technical Skills and Hobbies'
       username: anna
     design:
       show_skill_percentage: false
