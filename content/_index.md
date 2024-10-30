@@ -51,4 +51,6 @@ sections:
     content:
       title: Languages
       username: anna
+    design:
+      css_style: ".language-icon { width: 100px !important; height: 100px !important; }"
 ---
