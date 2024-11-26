@@ -55,9 +55,8 @@ highlight_name: true
 
 interests:
   - Continual Reinforcement Learning
-  - Single-lifetime agents
-  - Robust Learning
-  - Resource-constrained Learning
+  - Single-lifetime Agents
+  - Capacity-constrained Learning
 
 education:
   - area: MSc in Computing Science
