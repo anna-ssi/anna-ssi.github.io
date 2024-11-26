@@ -57,7 +57,6 @@ interests:
   - Continual Reinforcement Learning
   - Single-lifetime Agents
   - Capacity-constrained Learning
-  - Animal-inspired Learning
 
 education:
   - area: MSc in Computing Science
