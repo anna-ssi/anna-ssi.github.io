@@ -170,10 +170,8 @@ languages:
     percent: 40 
 ---
 
-I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>  in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  Before this, I earned a BSc in Information Technologies (IT) from the National Polytechnic University of Armenia (NPUA).
+I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>  in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  
 
-My current research centers on online reinforcement learning, specifically on creating methods that dynamically tune hyperparameters during agent-environment interactions. I have also contributed to designing continuing environments that evaluate an agent's adaptability in dynamic and partially observable settings. Additionally, drawing inspiration from animal learning theories, I explore concepts such as environmental enrichment - studying how diverse, task-agnostic observations can enhance an agent's abilities across both simple and complex RL environments.
-
-Lately, I've become increasingly interested in exploring capacity-constrained, lifelong learning agents, as I believe intelligent behviors arise from mitigating natural limitations, while adapting, planning and interacting with the environment.
+My current research centers on online reinforcement learning, specifically on creating methods that dynamically tune hyperparameters during agent-environment interactions. I have also contributed to designing continuing environments that evaluate an agent's adaptability in dynamicaly changing partially observable settings. Additionally, drawing inspiration from animal learning theories, I explore concepts such as environmental enrichment - studying how diverse, task-agnostic observations can enhance an agent's abilities across both simple and complex RL environments. I am also interested in exploring capacity-constrained, lifelong learning agents, as I believe intelligent behviors arise from mitigating natural limitations, while adapting, planning and interacting with the environment.
 
 **Contact:** hakhverd [at] ualberta [dot] ca
