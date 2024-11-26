@@ -170,10 +170,10 @@ languages:
     percent: 40 
 ---
 
-I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>. I have completed my MSc degree in Computing Science under the supervision of Martha White in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  Prior to that, I obtained a BSc from the National Polytechnic University of Armenia (NPUA) in Information Technologies (IT).
+I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>  in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  Before this, I earned a BSc in Information Technologies (IT) from the National Polytechnic University of Armenia (NPUA).
 
-My current research is focused on online reinforcement learning, particularly on designing adaptable agents that can learn tasks robustly, even as their surroundings change. In my MSc thesis, I explored how adjusting various hyperparameters could enhance this adaptability.
+My current research centers on online reinforcement learning, specifically on creating methods that dynamically tune hyperparameters during agent-environment interactions. I have also contributed to designing continuing environments that evaluate an agent's adaptability in dynamic and partially observable settings. Additionally, drawing inspiration from animal learning theories, I explore concepts such as environmental enrichment - studying how diverse, task-agnostic observations can enhance an agent's abilities across both simple and complex RL environments.
 
-Lately, I've become increasingly interested in the concept of agents that are aware of their limitations - whether computational or otherwise - and capable of recognizing and adapting to changes they've made in their surroundings. I believe this _self-awareness_ could help with more efficient learning and the emergence of agency. Ultimately, my goal is to develop methods compelling enough to attract interest from psychologists to study agent behaviors.
+Lately, I've become increasingly interested in exploring capacity-constrained, lifelong learning agents, as I believe intelligent behviors arise from mitigating natural limitations, while adapting, planning and interacting with the environment.
 
 **Contact:** hakhverd [at] ualberta [dot] ca
