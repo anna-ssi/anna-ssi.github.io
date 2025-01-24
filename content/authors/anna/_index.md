@@ -56,7 +56,7 @@ highlight_name: true
 interests:
   - Lifelong RL
   - Capacity-constrained Learning
-  - Hirerarchical RL
+  - Hierarchical RL
   - Single-lifetime Agents
 
 education:
