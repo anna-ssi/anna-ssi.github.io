@@ -146,7 +146,7 @@ skills:
   - name: ''
     items:
       - name: Reading
-        description: ''
+        description: 'https://www.goodreads.com/user/show/39192985-anna-hakhverdyan'
         percent: 60
         icon: book-open
       - name: Photography
