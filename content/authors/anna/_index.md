@@ -172,6 +172,8 @@ languages:
 
 I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>  in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  
 
-My current research centers on online reinforcement learning, specifically on creating methods that dynamically tune hyperparameters during agent-environment interactions. I have also contributed to designing continuing environments that evaluate an agent's adaptability in dynamicaly changing partially observable settings. Additionally, drawing inspiration from animal learning theories, I explore concepts such as environmental enrichment - studying how diverse, task-agnostic observations can enhance an agent's abilities across both simple and complex RL environments. I am also interested in exploring capacity-constrained, lifelong learning agents, as I believe intelligent behviors arise from mitigating natural limitations, while adapting, planning and interacting with the environment.
+My current research centers on online reinforcement learning, specifically developing methods that dynamically tune hyperparameters during allocated agent-environment interactions. I have also contributed to designing partially observable never-ending environments to evaluate an agent's adaptability in dynamically changing settings. I also study how rich, diverse, task-agnostic observations can enhance an agent's abilities across simple and complex RL environments. 
+
+I have recently developed a keen interest in quantifying the amount of information an agent needs for efficient decision-making, especially in a partially observable setting. I am interested in exploring capacity-constrained agents - agents with constraints on the information they can get about the world they live in. 
 
 **Contact:** hakhverd [at] ualberta [dot] ca
