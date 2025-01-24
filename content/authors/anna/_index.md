@@ -54,10 +54,10 @@ profiles:
 highlight_name: true
 
 interests:
-  - Continual Reinforcement Learning
-  - Single-lifetime Agents
+  - Lifelong Reinforcement Learning
   - Capacity-constrained Learning
-  - Animal-inspired Learning
+  - Hirerarchical Reinforcement Learning
+  - Single-lifetime Agents
 
 education:
   - area: MSc in Computing Science
