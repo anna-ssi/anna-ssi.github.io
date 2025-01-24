@@ -165,9 +165,9 @@ languages:
   - name: Russian
     percent: 95
   - name: Japanese
-    percent: 60
+    percent: 75
   - name: Korean
-    percent: 40 
+    percent: 60 
 ---
 
 I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>  in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  
