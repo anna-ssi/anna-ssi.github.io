@@ -87,9 +87,9 @@ work:
     summary: |2-
       Responsibilities include:
       - Finishing up my thesis work for journal submission.
-      - Developing a suite of environments for process control.
-      - Working on developing environments suitable for Continual learning.
-      - Understanding and evaluating RL agents in curated animal learning experiments.
+      - Developing RL-automated PID controller for a process control environment.
+      - Working on developing environments suitable for lifelong learning.
+      - Analyzing the impact of partial observability and limited information on experiments inspired by animal learning.
   - position: Machine Learning Engineer
     company_name: Magical Labs
     company_url: ''
