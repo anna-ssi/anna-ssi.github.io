@@ -28,7 +28,7 @@ publication: RLC 2025 Workshop on Practical Insights into Reinforcement Learning
 publication_short: In *RLC'25 RL4RS Workshop*
 
 abstract: | 
-  *Anna and Golnaz Mesbahi contributed equally to this work.*
+  *Anna Hakhverdyan and Golnaz Mesbahi contributed equally.*
 
   Blood-glucose control is a classic example of setpoint tracking, where the controller must continuously adjust insulin delivery to maintain a desired glucose level. While simple feedback controllers, like proportional-integral-derivative (PID), are commonly used, they can not leverage contextual information that could lead to better performance. Reinforcement learning (RL) has shown promise for such control problems, but its use in continual setpoint tracking—where learning happens online during deployment—remains underexplored. In this work, we study how the on-policy RL algorithm PPO performs in blood-glucose control under different observability conditions. 
   We build a continuing blood-glucose control environment based on the Bergman model and evaluate PPO in a series of increasingly difficult scenarios - starting with a deterministic case, then introducing stochasticity, and finally testing how well learned policies transfer across different patients. Our results show that standard PPO struggles even in relatively simple settings, underscoring the need for further research to make RL more reliable for setpoint tracking. However, we find that modifying PPO’s policy to output PID gains—effectively using PPO to tune a PID controller—significantly improves stability and performance, demonstrating a promising direction for RL in process control.
