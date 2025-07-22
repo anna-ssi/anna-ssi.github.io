@@ -36,7 +36,7 @@ featured: true
 
 url_pdf: 'https://openreview.net/pdf?id=RzhCmF5oI0'
 url_code: 'https://github.com/anna-ssi/bg-rlpid'
-# url_dataset: 'https://github.com/ShushanArakelyan/modular_code_searc'
+url_dataset: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
