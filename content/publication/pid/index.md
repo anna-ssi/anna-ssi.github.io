@@ -5,10 +5,14 @@ title: 'Adaptive PID Control for Setpoint Tracking Using Reinforcement Learning:
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - anna *
-  - Golnaz Mesbahi *
+  - anna
+  - Golnaz Mesbahi
   - Martha White
-notes: "* denotes equal contribution."
+
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- ""
 
 date: '2025-05-15T00:00:00Z'
 doi: ''
