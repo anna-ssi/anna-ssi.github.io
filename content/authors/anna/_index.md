@@ -42,13 +42,9 @@ profiles:
     url: https://github.com/anna-ssi
   - icon: brands/x
     url: https://x.com/anna_ssi_
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/anna-hakhverdyan-167220175/
-  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  # - icon: academicons/cv
-  #   url: uploads/Anna_CV.pdf
+
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -85,7 +81,6 @@ work:
     date_start: 2025-05-05
     date_end: 2025-08-22
     summary: |-
-      Responsibilities include:
       - Online hyperparameter tuning for LLM agents.
   - position: Research Assistant
     company_name: University of Alberta - RLAI Lab
@@ -94,7 +89,6 @@ work:
     date_start: 2024-09-16
     date_end: 2025-04-30
     summary: |-
-      Responsibilities include:
       - Developed RL-automated PID controller for a process control environment.
       - Worked on developing environments suitable for lifelong learning.
   - position: Machine Learning Engineer
@@ -104,7 +98,6 @@ work:
     date_start: 2021-10-01
     date_end: 2022-07-31
     summary: |
-      Responsibilities include:
       - Developed models and pipelines for autonomous vehicle control.
       - Worked on compressing large neural networks with RL agents for mobile integration.
   - position: Machine Learning Engineer
@@ -114,7 +107,6 @@ work:
     date_start: 2020-12-01
     date_end: 2021-10-01
     summary: |
-      Responsibilities include:
       - Conducted research on developing an end-to-end autonomous driving pipeline for simulated games.
   - position: Software Engineer
     company_name: ForgeFiction
@@ -123,7 +115,6 @@ work:
     date_start: 2018-12-01
     date_end: 2020-01-31
     summary: |
-      Responsibilities include:
       - Developed and designed API requests and database architectures.
       - Optimized the application for maximum speed and scalability.
 
