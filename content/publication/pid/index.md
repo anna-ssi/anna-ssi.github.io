@@ -24,7 +24,7 @@ publication_short: In *RLC'25 RL4RS Workshop*
 
 abstract: Semantic code search is the task of retrieving a code snippet given a textual description of its functionality. Recent work has been focused on using similarity metrics between neural embeddings of text and code. However, current language models are known to struggle with longer, compositional sentences, and multi-step reasoning. To overcome this limitation, we propose supplementing the query sentence with a layout of its semantic structure. The semantic layout is used to break down the final reasoning decision into a series of lower-level decisions. We use a Neural Module Network architecture to implement this idea. We compare our model - *NS3* (Neuro-Symbolic Semantic Search)-to a number of baselines, including state-of-the-art semantic code retrieval methods, such as CodeBERT, CuBERT and GraphCodeBERT, and evaluate on two datasets-Code Search Net (CSN) and Code Search and Question Answering (CoSQA). On these datasets, we demonstrate that our approach results in higher performance. We also perform additional studies to show the effectiveness of our modular design when handling compositional queries.
 
-tags: [ML for Code, Generalizable Models for Code]
+tags: [Bloog-glucose control, PID tuning, Online reinforcement learning]
 
 # Display this page in the Featured widget?
 featured: true
@@ -34,9 +34,9 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://proceedings.neurips.cc/paper_files/paper/2022/hash/43f5f6c5cb333115914c8448b8506411-Abstract-Conference.html'
-url_code: 'https://github.com/ShushanArakelyan/modular_code_search'
-url_dataset: 'https://github.com/ShushanArakelyan/modular_code_search'
+url_pdf: 'https://openreview.net/pdf?id=RzhCmF5oI0'
+url_code: 'https://github.com/anna-ssi/bg-rlpid'
+# url_dataset: 'https://github.com/ShushanArakelyan/modular_code_searc'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
