@@ -17,13 +17,13 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: MSc in Computing Science
+role: PhD in Computer Science
 # email: hakhverd@ualberta.ca
 # mailto: hakhverd@ualberta.ca
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Alberta
+  - name: Brown University
     url: 
   # - name: hakhverd@ualberta.ca
 
@@ -34,10 +34,10 @@ bio: I am interested in developing agents that learn continually in complex envi
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:hakhverd@ualberta.ca'
+    url: 'mailto:ahakhver@brown.edu'
     label: E-mail Me
   - icon: brands/google-scholar
-    url: https://scholar.google.com/citations?user=55WuTVQAAAAJ&hl=en
+    url: https://scholar.google.ca/citations?user=pgBryHMAAAAJ&hl=en
   - icon: brands/github
     url: https://github.com/anna-ssi
   - icon: brands/x
@@ -54,37 +54,46 @@ profiles:
 highlight_name: true
 
 interests:
-  - Lifelong RL
+  - Partial Observability
+  - Continual Learning
   - Capacity-constrained Learning
-  - Hierarchical RL
-  - Single-lifetime Agents
+  - Agency/Causality of Agents
 
 education:
+  - area: PhD in Computer Science
+    institution: Brown University
+    date_start: 2025-09-01
+    date_end: ''
+
   - area: MSc in Computing Science
     institution: University of Alberta
     date_start: 2023-01-05
     date_end: 2024-09-03
     summary: |
-      GPA: 3.8/4.0
-
-      My Master's thesis explores online hyperparameter tuning in reinforcement learning, where an agent adapts its hyperparameters during interactions rather than relying on a pre-tuning phase.
+      Thesis: Accounting for Hyperparameter Tuning in Online Reinforcement Learning
 
   - area: BSc in Information Technologies
     institution: National Polytechnic University of Armenia
     date_start: 2016-10-10
     date_end: 2021-05-15
-    
-    summary: |
-      GPA: 3.92/4.0
 
 work:
+  - position: Research Intern
+    company_name: Huawei Canada
+    company_url: 'https://www.huawei.com/ca/'
+    company_logo: ''
+    date_start: 2025-05-05
+    date_end: 2025-08-22
+    summary: |-
+      Responsibilities include:
+      - Online hyperparameter tuning for LLM agents.
   - position: Research Assistant
     company_name: University of Alberta - RLAI Lab
     company_url: 'http://rlai.ualberta.ca/'
     company_logo: ''
     date_start: 2024-09-16
-    date_end: ''
-    summary: |2-
+    date_end: 2025-04-30
+    summary: |-
       Responsibilities include:
       - Finishing up my thesis work for journal submission.
       - Developing RL-automated PID controller for a process control environment.
@@ -129,19 +138,15 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
         icon: code-bracket
       - name: Bash, Version Control
         description: ''
-        percent: 100
         icon: cube-transparent
       - name: SQL, NoSQL
         description: ''
-        percent: 40
         icon: circle-stack
       - name: Jax, PyTorch, Numpy
         description: ''
-        percent: 100
         icon: building-library
   - name: ''
     items:
@@ -153,8 +158,8 @@ skills:
         description: ''
         percent: 80
         icon: camera
-      - name: Cooking
-        icon: "custom/cooking"
+      - name: Writing
+        icon: pencil-square
 
 
 languages:
@@ -165,15 +170,17 @@ languages:
   - name: Russian
     percent: 95
   - name: Japanese
-    percent: 75
+    percent: 65
   - name: Korean
-    percent: 60 
+    percent: 45 
 ---
 
-I am a Research Assistant at the University of Alberta working with <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>  in the <a href="http://rlai.ualberta.ca/">RLAI Lab</a>.  
+I am an incoming Computer Science PhD student at Brown University, where I will be working with <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a> in the <a href="http://irl.cs.brown.edu/">Intelligent Robot Lab (IRL)</a>.  
 
-My current research centers on online reinforcement learning (RL), specifically developing methods that dynamically tune hyperparameters during allocated agent-environment interactions. I have also contributed to designing environments that are partially observable, never-ending, and continually changing, in order to evaluate the agent's adaptability, similar to how natural intelligences operate. I also study how rich, diverse, task-agnostic observations can enhance an agent's abilities across simple and complex RL environments. 
+Previously, I was an MSc (Thesis) student in Computing Science at the University of Alberta, advised by <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a> in the <a href="http://irl.cs.brown.edu/">RLAI Lab</a>. I earned my bachelor's degree in my home country, Armenia, in <a href="https://polytech.am/en/home/">National Polytechnic University of Armenia</a>.
 
-I have recently developed a keen interest in quantifying the amount of information an agent needs for efficient decision-making, especially in a partially observable setting. I am interested in exploring capacity-constrained agents - agents with constraints on the information they can get about the world they live in. 
+During my master's, I focused on online reinforcement learning (RL), specifically developing methods that dynamically tune hyperparameters during allocated agent-environment interactions. I have also contributed to designing environments that are partially observable, never-ending, and continually changing, to evaluate the agent's adaptability. I also study how rich, diverse, task-agnostic observations can enhance an agent's abilities across simple and complex RL environments. 
 
-**Contact:** hakhverd [at] ualberta [dot] ca
+I am interested in developing agents that can operate in a partially observable setting in an online manner. In my opinion, one way to achieve this is by quantifying the amount of information an agent needs for efficient decision-making, as the agent relies on its experience in such environments. This interest also leads me to explore capacity-constrained agents—those with limits on the information they can obtain about the world they inhabit—which I believe is a key ingredient in achieving natural intelligence.
+
+**Contact:** ahakhver [at] brown [dot] edu
