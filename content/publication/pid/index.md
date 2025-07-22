@@ -1,14 +1,18 @@
 ---
-title: 'Adaptive PID Control for Setpoint Tracking Using Reinforcement Learning: A Case Study for Blood-Glucose Control'
+title: 'NS3: Neuro-symbolic Semantic Code Search'
+
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Shushan Arakelyan
   - anna
-  - Golnaz Mesbahi
-  - Martha White
+  - Miltiadis Allamanis
+  - Luis Garcia
+  - Christophe Hauser
+  - Xiang Ren
 
-date: '2025-08-05T00:00:00Z'
+date: '2022-12-01T00:00:00Z'
 doi: ''
 
 # Publication type.
@@ -18,12 +22,12 @@ doi: ''
 publication_types: ['Conference paper']
 
 # Publication name and optional abbreviated publication name.
-publication: RLC 2025 Workshop on Practical Insights into Reinforcement Learning for Real Systems
-publication_short: In *RLC'25 RL4RS Workshop*
+publication: In Advances in Neural Information Processing Systems 35
+publication_short: In *NeurIPS'22*
 
-abstract: Blood-glucose control is a classic example of setpoint tracking, where the controller must continuously adjust insulin delivery to maintain a desired glucose level. While simple feedback controllers, like proportional-integral-derivative (PID), are commonly used, they can not leverage contextual information that could lead to better performance. Reinforcement learning (RL) has shown promise for such control problems, but its use in continual setpoint tracking—where learning happens online during deployment—remains underexplored. In this work, we study how the on-policy RL algorithm PPO performs in blood-glucose control under different observability conditions. We build a continuing blood-glucose control environment based on the Bergman model and evaluate PPO in a series of increasingly difficult scenarios- starting with a deterministic case, then introducing stochasticity, and finally testing how well learned policies transfer across different patients. Our results show that standard PPO struggles even in relatively simple settings, underscoring the need for further research to make RL more reliable for setpoint tracking. However, we find that modifying PPO's policy to output PID gains—effectively using PPO to tune a PID controller—significantly improves stability and performance, demonstrating a promising direction for RL in process control.
+abstract: Semantic code search is the task of retrieving a code snippet given a textual description of its functionality. Recent work has been focused on using similarity metrics between neural embeddings of text and code. However, current language models are known to struggle with longer, compositional sentences, and multi-step reasoning. To overcome this limitation, we propose supplementing the query sentence with a layout of its semantic structure. The semantic layout is used to break down the final reasoning decision into a series of lower-level decisions. We use a Neural Module Network architecture to implement this idea. We compare our model - *NS3* (Neuro-Symbolic Semantic Search)-to a number of baselines, including state-of-the-art semantic code retrieval methods, such as CodeBERT, CuBERT and GraphCodeBERT, and evaluate on two datasets-Code Search Net (CSN) and Code Search and Question Answering (CoSQA). On these datasets, we demonstrate that our approach results in higher performance. We also perform additional studies to show the effectiveness of our modular design when handling compositional queries.
 
-tags: [Blood-glucose control, PID tuning, Online reinforcement learning]
+tags: [ML for Code, Generalizable Models for Code]
 
 # Display this page in the Featured widget?
 featured: true
@@ -33,9 +37,9 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/pdf?id=RzhCmF5oI0'
-url_code: 'https://github.com/anna-ssi/bg-rlpid'
-url_dataset: ''
+url_pdf: 'https://proceedings.neurips.cc/paper_files/paper/2022/hash/43f5f6c5cb333115914c8448b8506411-Abstract-Conference.html'
+url_code: 'https://github.com/ShushanArakelyan/modular_code_search'
+url_dataset: 'https://github.com/ShushanArakelyan/modular_code_search'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
