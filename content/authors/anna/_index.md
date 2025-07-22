@@ -173,7 +173,7 @@ languages:
     percent: 45 
 ---
 
-I am an incoming Computer Science PhD student at Brown University, where I will be working with <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a> in the <a href="http://irl.cs.brown.edu/">Intelligent Robot Lab (IRL)</a>.  
+I am a first-year Computer Science PhD student at Brown University, advised by <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a> in the <a href="http://irl.cs.brown.edu/">Intelligent Robot Lab (IRL)</a>.  
 
 Previously, I was an MSc (Thesis) student in Computing Science at the University of Alberta, advised by <a href="https://webdocs.cs.ualberta.ca/~whitem/">Martha White</a> in the <a href="http://irl.cs.brown.edu/">RLAI Lab</a>. I earned my bachelor's degree in my home country, Armenia, in <a href="https://polytech.am/en/home/">National Polytechnic University of Armenia</a>.
 
