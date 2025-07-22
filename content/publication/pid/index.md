@@ -8,14 +8,14 @@ authors:
   - Golnaz Mesbahi
   - Martha White
 
-date: '2022-12-01T00:00:00Z'
+date: '2025-08-05T00:00:00Z'
 doi: ''
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['Report']
+publication_types: ['Conference paper']
 
 # Publication name and optional abbreviated publication name.
 publication: RLC 2025 Workshop on Practical Insights into Reinforcement Learning for Real Systems
