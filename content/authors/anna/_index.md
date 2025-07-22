@@ -95,10 +95,8 @@ work:
     date_end: 2025-04-30
     summary: |-
       Responsibilities include:
-      - Finishing up my thesis work for journal submission.
-      - Developing RL-automated PID controller for a process control environment.
-      - Working on developing environments suitable for lifelong learning.
-      - Analyzing the impact of partial observability and limited information on experiments inspired by animal learning.
+      - Developed RL-automated PID controller for a process control environment.
+      - Worked on developing environments suitable for lifelong learning.
   - position: Machine Learning Engineer
     company_name: Magical Labs
     company_url: ''
@@ -181,6 +179,6 @@ Previously, I was an MSc (Thesis) student in Computing Science at the University
 
 During my master's, I focused on developing online reinforcement learning agents that dynamically tune hyperparameters during allocated agent-environment interactions. I have also contributed to designing environments that are partially observable, never-ending, and continually changing, to evaluate the agent's adaptability. 
 
-I am interested in developing agents that can operate in a partially observable setting in an online manner. In my opinion, one way to achieve this is by quantifying the amount of information an agent needs for efficient decision-making, as the agent relies on its experience in such environments. This interest also leads me to explore capacity-constrained agents—those with limits on the information they can obtain about the world they inhabit—which I believe is a key ingredient in achieving natural intelligence.
+I am interested in developing agents that operate in a partially observable setting in an online manner. In my opinion, one way to achieve this is by quantifying the amount of information an agent needs for efficient decision-making, as the agent relies on its experience in such environments. This interest also leads me to explore capacity-constrained agents—those with limits on the information they can obtain about the world they inhabit—which I believe is a key ingredient in achieving natural intelligence.
 
 **Contact:** ahakhver [at] brown [dot] edu
