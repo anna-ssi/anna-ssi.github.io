@@ -22,36 +22,16 @@ sections:
       biography:
         style: 'text-align: justify; font-size: 1em;'
   - block: collection
-    id: pubs-main
+    id: pubs
     content:
       title: Publications
+      text: ""
       filters:
         folders:
           - publication
       exclude_featured: false
     design:
-      view: citation  
-  - block: collection
-    id: pubs-workshops
-    content:
-      title: Workshop Papers
-      filters:
-        folders:
-          - publication
-      exclude_featured: true  # This shows only non-featured
-    design:
       view: citation
-  # - block: collection
-  #   id: pubs
-  #   content:
-  #     title: Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #     exclude_featured: false
-  #   design:
-  #     view: citation
   - block: resume-experience
     id: exp
     content:
