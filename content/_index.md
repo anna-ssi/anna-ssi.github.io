@@ -31,7 +31,7 @@ sections:
           - publication
         # Exclude workshop papers (assuming you use type '3' for workshops)
         exclude:
-          publication_types: ['4']
+          publication_types: ['3']
       exclude_featured: false
     design:
       view: citation
@@ -45,7 +45,7 @@ sections:
           - publication
         # Only show workshop papers
         include:
-          publication_types: ['4']
+          publication_types: ['3']
       exclude_featured: false
     design:
       view: citation
