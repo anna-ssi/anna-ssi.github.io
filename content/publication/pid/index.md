@@ -48,9 +48,5 @@ url_code: 'https://github.com/anna-ssi/bg-rlpid'
 image:
   caption: ''
   focal_point: ''
-  preview_only: false
-
-_build:
-  render: false
-  list: true
+  preview_only: true
 ---

@@ -46,9 +46,6 @@ url_dataset: 'https://github.com/ShushanArakelyan/modular_code_search'
 image:
   caption: ''
   focal_point: ''
-  preview_only: false
-
-_build:
-  render: false
-  list: true
+  preview_only: true
+  
 ---
