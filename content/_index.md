@@ -25,28 +25,21 @@ sections:
     id: pubs-main
     content:
       title: Publications
-      text: ""
       filters:
         folders:
           - publication
-        # Exclude workshop papers (assuming you use type '3' for workshops)
-        exclude:
-          publication_types: ['3']
       exclude_featured: false
+      featured_only: true
     design:
-      view: citation
+      view: citation  
   - block: collection
     id: pubs-workshops
     content:
       title: Workshop Papers
-      text: ""
       filters:
         folders:
           - publication
-        # Only show workshop papers
-        include:
-          publication_types: ['3']
-      exclude_featured: false
+      exclude_featured: true  # This shows only non-featured
     design:
       view: citation
   # - block: collection
