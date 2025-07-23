@@ -48,4 +48,7 @@ image:
   focal_point: ''
   preview_only: false
 
+_build:
+  render: false
+  list: true
 ---
