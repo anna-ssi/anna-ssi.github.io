@@ -32,6 +32,7 @@ sections:
       exclude_featured: false
     design:
       view: citation
+      link_to_page: false
   - block: resume-experience
     id: exp
     content:
