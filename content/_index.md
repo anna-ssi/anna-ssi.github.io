@@ -52,5 +52,5 @@ sections:
       title: Languages
       username: anna
     design:
-      css_style: ".pie-chart { transform: scale(0.7); }"
+      css_style: ".pie-chart { transform: scale(0.5); }"
 ---
