@@ -9,10 +9,6 @@ authors:
   - Golnaz Mesbahi
   - Martha White
 
-author_notes:
-  - "Equal contribution"
-  - "Equal contribution"
-  - ""
 
 date: '2025-05-15T00:00:00Z'
 doi: ''

@@ -29,7 +29,6 @@ sections:
         folders:
           - publication
       exclude_featured: false
-      featured_only: true
     design:
       view: citation  
   - block: collection
